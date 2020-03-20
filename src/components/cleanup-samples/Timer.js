@@ -3,7 +3,7 @@ import React from 'react';
 export default function Timer({ value, fired, start, pause, reset }) {
   return (
     <>
-      <div>{value}</div>
+      <h1>{value}</h1>
       {
         fired && (<div>Fired!</div>)
       }

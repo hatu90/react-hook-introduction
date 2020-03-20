@@ -15,7 +15,7 @@ export default class ClassCounter extends Component {
     const { counter } = this.state;
     return (
       <div>
-        <div>{counter}</div>
+        <h1>{counter}</h1>
         <button onClick={this.onIncrease}>Increment!</button>
       </div>
     )
